@@ -27,7 +27,7 @@ Ao prever o sucesso de pouso com base em variaveis da missao (site de lancamento
 |---|---|---|
 | 1 | `1. jupyter-labs-spacex-data-collection-api.ipynb` | Coletar dados de lancamentos via API |
 | 2 | `2. jupyter-labs-webscraping.ipynb` | Extrair registros complementares via web scraping |
-| 3 | `3. labs-jupyter-spacex-Data wrangling.ipynb` | Tratar dados e preparar base analitica |
+| 3 | `3. labs-jupyter-spacex-data-wrangling.ipynb` | Tratar dados e preparar base analitica |
 | 4 | `4. jupyter-labs-eda-sql-coursera_sqllite.ipynb` | Realizar EDA com consultas SQL |
 | 5 | `5. jupyter-labs-eda-dataviz.ipynb` | Realizar EDA visual (padroes por site, carga e orbita) |
 | 6 | `6. lab_jupyter_launch_site_location.ipynb` | Analise geoespacial com Folium e proximidade |

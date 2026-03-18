@@ -27,7 +27,7 @@ By predicting landing success from mission variables (launch site, orbit, payloa
 |---|---|---|
 | 1 | `1. jupyter-labs-spacex-data-collection-api.ipynb` | Collect launch data through API |
 | 2 | `2. jupyter-labs-webscraping.ipynb` | Extract complementary records via web scraping |
-| 3 | `3. labs-jupyter-spacex-Data wrangling.ipynb` | Clean data and prepare analytical dataset |
+| 3 | `3. labs-jupyter-spacex-data-wrangling.ipynb` | Clean data and prepare analytical dataset |
 | 4 | `4. jupyter-labs-eda-sql-coursera_sqllite.ipynb` | Perform EDA with SQL queries |
 | 5 | `5. jupyter-labs-eda-dataviz.ipynb` | Perform visual EDA (patterns by site, payload, orbit) |
 | 6 | `6. lab_jupyter_launch_site_location.ipynb` | Perform geospatial analysis with Folium |
