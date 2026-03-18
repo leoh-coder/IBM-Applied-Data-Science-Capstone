@@ -18,7 +18,12 @@ def load_data():
     if DATA_FILE.exists():
         return pd.read_csv(DATA_FILE)
 
-    df = pd.read_csv(DATA_URL)
+    try:
+        df = pd.read_csv(DATA_URL)
+    except Exception as exc:
+        raise RuntimeError(
+            f"Falha ao carregar dados: arquivo local '{DATA_FILE}' não encontrado e URL remota inacessível ({DATA_URL})."
+        ) from exc
     df.to_csv(DATA_FILE, index=False)
     return df
 
